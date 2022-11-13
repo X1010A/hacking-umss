@@ -15,6 +15,7 @@
     "@tailwindcss/typography": "^0.3.1",
     "dayjs": "^1.10.4",
     "gray-matter": "^4.0.2",
+    "http-server": "^14.1.1",
     "next": "^10.2.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
