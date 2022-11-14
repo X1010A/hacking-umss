@@ -22,7 +22,7 @@ const Config: ConfigProps = {
         },
         {
             icon: faYoutube,
-            url: "#"
+            url: "https://www.youtube.com/channel/UCXYsDuT6s8eQGgedkeuEbzw"
         }
 
     ],
