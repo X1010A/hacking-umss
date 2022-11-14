@@ -134,7 +134,7 @@ const Config: ConfigProps = {
             text: "Link 1",
             href: "#"
         },
-        // Add your custom links here
+        // Add your custom links here 
     ]
 }
 ``` 

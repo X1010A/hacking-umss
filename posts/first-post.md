@@ -1,8 +1,8 @@
 ---
-title: 'MODULO 1'
+title: 'Módulo 1'
 date: '2022-11-13'
-description: 'Hacking UMSS es una comunidad de estudiantes de la Universidad Mayor de San Simon'
-coverUrl: 'https://i.imgur.com/8MNpdtD.png'
+description: 'En este post encontraras las instrucciones necesarias para instalar las apliaciones necesarias'
+coverUrl: 'https://i.ibb.co/XpT8F87/Dise-o-sin-t-tulo.png'
 tags: 'Android,Linux'
 ---
 

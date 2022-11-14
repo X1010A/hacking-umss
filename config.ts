@@ -1,5 +1,5 @@
 import { IconProp } from "@fortawesome/fontawesome-svg-core"
-import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { NavbarLinkProps } from "./components/navbar-link"
 
 type SocialLinkProps = {
@@ -17,13 +17,14 @@ type ConfigProps = {
 const Config: ConfigProps = {
     socialLinks: [
         {
-            icon: faTwitter,
+            icon: faFacebook,
             url: "#"
         },
         {
-            icon: faInstagram,
+            icon: faYoutube,
             url: "#"
         }
+
     ],
     navbarLinks: [
         {
