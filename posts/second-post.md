@@ -1,7 +1,7 @@
 ---
 title: 'Módulo 2'
 date: '2022-11-16'
-description: 'Prim  eros pasos por Termux y Bash, herramientas útiles que estarán presentes en toda tu vida como desarrollador de software'
+description: 'Primeros pasos por Termux y Bash, herramientas útiles que estarán presentes en toda tu vida como desarrollador de software'
 coverUrl: 'https://i.ibb.co/YcYzvjM/Termux.png'
 tags: 'Android,Linux, Bash'
 ---

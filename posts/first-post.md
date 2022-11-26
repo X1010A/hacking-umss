@@ -3,6 +3,7 @@ title: 'Módulo 1'
 date: '2022-11-14'
 description: 'En este post encontraras las instrucciones necesarias para instalar las apliaciones de: TERMUX, ACODE, AIDE, Java N-IDE'
 coverUrl: 'https://i.ibb.co/XpT8F87/Dise-o-sin-t-tulo.png'
+autor: 'Rodrigo'
 tags: 'Android,Linux'
 ---
 

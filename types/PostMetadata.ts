@@ -8,4 +8,5 @@ export type PostMetadata = {
     description: string
     theme: string
     series: string
+    autor: string
 }
