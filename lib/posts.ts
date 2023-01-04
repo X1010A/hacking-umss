@@ -39,6 +39,7 @@ const getPostData = async (id: string): Promise<PostMetadata> => {
     // Combine the data with the id
     return {
         id,
+        autor: contentHtml,
         content: contentHtml,
         ...matterResult.data,
         theme: matterResult.data.theme || "indigo",

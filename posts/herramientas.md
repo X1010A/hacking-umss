@@ -36,14 +36,16 @@ Qué es bash?
 ## Paso 4 Instalación de herramientas como:
 ### Git, Visual Studio Code, Node y http-server, Brave.
 
-
-## Descargar Git
-
-[Click aqui](https://git-scm.com/)
+## Descargar BRAVE
+[Click aqui](https://brave.com/es/download/)
 
 ## Descargar Visual Studio Code
 
 [Click aqui](https://code.visualstudio.com/download)
+
+## Descargar Git
+
+[Click aqui](https://git-scm.com/)
 
 ## Descagar Node y el paquete http-server
 
@@ -66,9 +68,48 @@ Abrir algun emulador de terminal Git Bash o CMD o PowerShell
 > git clone https://github.com/wayou/t-rex-runner.git
 > code t-rex-runner
 ```
+
+## Funciones de JavaScript para modificar el comportamiento del juego.
+
+```js
+Runner.instance_.setSpeed(1)
+Runner.instance_.setSpeed(100)
+Runner.instance_.setSpeed(-1) //Pierde puntos xD
+Runner.instance_.setSpeed(0.1)
+Runner.instance_.setSpeed(500)
+
+Runner.instance_.tRex.setJumpVelocity(20)
+Runner.instance_.tRex.setJumpVelocity(50)
+Runner.instance_.tRex.setJumpVelocity(1000)
+Runner.instance_.tRex.setJumpVelocity(0)
+
+Runner.instance_.horizon.addCloud()
+
+Runner.instance_.horizon.removeFirstObstacle()
+
+Runner.instance_.inverted = true //Sale la luna aunque sea de dia
+
+Runner.prototype.gameOver = function() {}  //Remplazar el Game Over por una funcion vacia
+
+Runner.instance_.msPerFrame = 0.01 //Lo que tardas en ganar un punto
+
+Runner.instance_.distanceRan = 3999900 //Puntuacion
+```
+## Activar juego de Dinusaurio en Chorme.
+
+```
+chrome://dino/
+```
 ## Descargar imagenes para modificar
 
+<a target="_blank" href="https://i.imgur.com/1G0VVKZ.png">
+<img src="https://i.imgur.com/1G0VVKZ.png" width="720" alt="accessibility text">
+</a>
+
+ 
+
 [Excitebike](https://i.imgur.com/1G0VVKZ.png)
+
 [Mario on Yoshi](https://i.imgur.com/ef9Wiox.png)
 [Kirby](https://i.imgur.com/75xK8sh.png)
 [Mario](https://i.imgur.com/k11CHsR.png)
@@ -86,6 +127,33 @@ Very explication
 
 [Click](https://www.youtube.com/watch?v=n5Zw79tvmVY)
 
+# Sprite (VideoJuegos) 
+
+## Los sprite son una clase de mapas de bits. Estos mapas se crean en la pantalla de un ordenador a partir de un dibujo inicial utilizando un hardware gráfico especial (sin necesitar cálculos adicionales de la CPU del ordenador).
+
+## En el ámbito de los videojuegos, los sprites son un conjunto de imágenes que representa un personaje u objeto (o una parte de ellos) de manera gráfica y que se utiliza para poder crear cualquier efecto de movimiento o para cambiar su estado o posición en la escena.
+
+<img src="https://www.didactoons.com/wp-content/uploads/2021/02/DinoTim1-768x543.jpg"  width="auto" border="0">
+
+
+
+# ¿Cómo es el sprite (videojuegos)?
+
+## Los sprites iniciales eran parcialmente transparentes y pequeños. Esto permitía que asumieran formas diferentes a la del rectángulo (por ejemplo, para funcionar como puntero en los ordenadores Amiga). Con una operación lógica de Or o AND entre la imagen original y la siguiente, se conseguía cambiar de forma sencilla los colores o eliminar el fondo a través de una máscara.
+
+## Con el paso del tiempo, estos mapas de bits fueron evolucionando. Sin embargo, cuando llegaron los videojuegos en 3D con sus personajes poligonales, los sprites quedaron relegados a un segundo plano.
+
+<img src="https://www.didactoons.com/wp-content/uploads/2021/02/72dcf240f3daf39c28cee25ec2ae9ec7.png"  width="auto" border="0">
+
+# Descargar Sprites de videojuegos clasicos
+
+## Juegos de NEOGEO - Metal Slug 3
+[Click aqui](https://www.spriters-resource.com/neo_geo_ngcd/)
+
+## Super Mario Bross
+
+[Click aqui](https://www.spriters-resource.com/nes/supermariobros/)
+
 ## Modificar proyectos
 
 
@@ -94,6 +162,7 @@ Clonar repositorio
 Descripcion: Buscar las etiquetas de texto y traducirlo a español
 
 ```bash
+
    git clone https://github.com/deepakydv9315/login-coder-theme.git
    code login-coder-theme
 ```
