@@ -15,7 +15,7 @@ jobs:
       - name: Install Next
         run: npm install next
       - name: Build
-        run: npm run build-prod
+        run: npm run build
       - name: Export  
         run: npx next export
       - name: Archive Production Artifact
