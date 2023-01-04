@@ -2,7 +2,7 @@ name: Automatic Build and Deploy
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
