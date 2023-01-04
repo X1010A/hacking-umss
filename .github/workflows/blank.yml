@@ -12,6 +12,8 @@ jobs:
         uses: actions/checkout@master
       - name: Install Dependencies
         run: npm install 
+      - name: Install Next
+        run: npm install next
       - name: Build
         run: npm run build-prod
       - name: Export  
