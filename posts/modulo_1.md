@@ -7,7 +7,7 @@ autor: 'Rodrigo'
 tags: 'Android,Linux'
 ---
 
-# TERMUX
+# TERMUXXXXXXXXXXXXXXXXXXXXXX
 
 Una aplicación de emulador de terminal para el sistema operativo Android ampliable por una variedad de paquetes. 
 
