@@ -1,7 +1,7 @@
 ---
 title: "Programación Competitiva UMSS"
 date: "2022-12-16"
-description: "En este módulo se deatallan ejercicios, recursos como libros, paginas, canales de YouTube y algunos retos"
+description: "Aquí se encuentran algunos sets de problemas pasados de programación competitiva que puedes usar para practicar"
 coverUrl: "https://narsten.com/wp-content/uploads/2022/09/icpc19.png"
 tags: "ICPC,RPC,PC,Contests"
 ---
